@@ -1,9 +1,0 @@
-p:first-child {
-  color: lime;
-  background-color: blanchedalmond;
-  padding: 5px;
-}
-p:last-child {
-  color: blue;
-  background-color: brown;
-}
