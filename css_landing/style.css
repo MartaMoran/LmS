@@ -1,0 +1,160 @@
+    .logoFirefox {
+        width: 130px;
+        ´ height: 40px;
+    }
+    
+    .nav-link {
+        font-size: 17px;
+        font-weight: bold;
+        margin-left: 70px;
+    }
+    
+    .h3Header {
+        margin-top: 25px;
+        font-size: 50px;
+        line-height: 1.1;
+        font-family: Inter, X-LocaleSpecific, sans-serif;
+        font-weight: 700;
+    }
+    
+    .pHeader {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 25px;
+        line-height: 1.1;
+        font-family: Inter, X-LocaleSpecific, sans-serif;
+    }
+    
+    #buttonAccess {
+        background-color: #FF5255;
+        color: white;
+        width: 135px;
+        height: 35px;
+        font-size: 15px;
+        border-radius: 4px;
+    }
+    
+    #buttonURL {
+        background-color: #0250BB;
+        color: white;
+        width: 235px;
+        height: 55px;
+        font-size: 17px;
+        border-radius: 4px;
+    }
+    
+    #buttonAndroid {
+        width: 155px;
+        height: 45px;
+        background-image: url(../img_landing/googlePlay.png);
+        background-size: 180px 70px;
+        background-position: center;
+        background-color: black;
+    }
+    
+    #buttonApple {
+        width: 155px;
+        height: 45px;
+        background-image: url(../img_landing/apple.JPG);
+        background-size: 140px 50px;
+        background-position: center;
+        background-color: black;
+    }
+    
+    #centerWebTittle {
+        background-color: #20123A;
+    }
+    
+    #h2TittleCenter {
+        color: #FF298A;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    #h3WebProtect {
+        margin-top: 35px;
+        color: white;
+        font-weight: bold;
+    }
+    
+    #pWebProtect {
+        margin-top: 35px;
+        color: white;
+    }
+    
+    #centerDispositivos {
+        background-color: #F9F9FA;
+    }
+    
+    #h3Dispositivos {
+        margin-top: 35px;
+        color: black;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    
+    #pDispositivos {
+        margin-top: 35px;
+        color: black;
+    }
+    
+    #imgDispositivo {
+        width: 590px;
+        height: 450px;
+    }
+    
+    #imgOnlyAndroid {
+        width: 250px;
+        height: 270px;
+    }
+    
+    #imgOnlyAndroid2 {
+        width: 340px;
+        height: 380px;
+    }
+    
+    #h3OnlyAndroid {
+        color: black;
+        font-weight: bold;
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+    
+    #pOnlyAndroid {
+        margin-top: 35px;
+        color: black;
+        font-weight: bold;
+    }
+    
+    #footer {
+        background-color: #20123A;
+        color: white;
+    }
+    
+    .listFooter {
+        list-style: none;
+        text-decoration: none;
+        color: white;
+    }
+    
+    ul.listFooter li {
+        padding-bottom: 1ex;
+    }
+    
+    .aFooter {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        margin-right: 18px;
+        margin-top: 25px;
+    }
+    
+    .pFooter {
+        color: white;
+        font-size: 13px;
+    }
+    
+    #imgRRSSfooter {
+        height: 25px;
+        width: 25px;
+    }
