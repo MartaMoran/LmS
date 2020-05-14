@@ -9,18 +9,13 @@
     font-size: 25px;
     color:rgb(107, 66, 204);
 }
-#menu{
- border:none;
- background-color:transparent;
- border-style: none;
- box-shadow: none;
- margin-top:20px;
- 
-}
-#menu [class*="img-fluid"] {
-    padding-right: 15px;
+
+.menu [class*="img-fluid"] {
+    margin-top:20px;
+    padding-right: 10px;
     width: 40px;
 }
+
 
 .guideline{
     border-top:solid black 1px;
@@ -36,7 +31,7 @@ footer{
 }
 
 #dashboardBg{
-    background-image: url("dashboard4.png");
+    background-image: url("img\dashboard4.png");
     background-repeat: no-repeat;
 }
 
@@ -46,20 +41,17 @@ footer{
     border:solid white 1px;
     width: 250px;
 	height: 30px;
-    background-image: url("iconfinder_icon-111-search_314807.svg");
+    background-image: url("img\iconfinder_icon-111-search_314478.svg");
     background-repeat:no-repeat;
     background-position: 5%;
     background-size: 20px;
     text-indent:40px;
     font-size: 14px;
     margin-top: 20px;
+    margin-left:70px
 }
 
-div [class*="profile"] {
-    width: 40px;
-    border-radius: 80%;
-    font-size: 12px;
-}
+
 .traffic{
     color:grey;
     font: 12px;
@@ -79,7 +71,7 @@ div [class*="profile"] {
     .logo{
         font-size:40px;
     }
-    #menu{
+    .menu{
         font-size:25px;
     }
     div [class*="text-dark"] {
@@ -93,6 +85,9 @@ div [class*="profile"] {
     }
     footer{
         margin-top:100px;
+    }
+    #search{
+        margin-left:10px;
     }
     #upgrade{
         margin-top:30px;
