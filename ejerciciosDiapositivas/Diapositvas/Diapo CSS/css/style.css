@@ -1,0 +1,26 @@
+body {
+  background-color: white;
+}
+
+div {
+  background: blue;
+}
+#blogColor {
+  background: green;
+}
+.myClass {
+  background: brown;
+}
+* {
+  text-decoration: underline;
+}
+/*Selectores de Atributo*/
+[data-type] {
+  color: green;
+}
+[data-type="liquid"] {
+  color: blue;
+}
+[data-type*="spicy solid"] {
+  color: red;
+}

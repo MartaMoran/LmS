@@ -1,0 +1,38 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <>
+      <label for="name" >Nombre:</label>
+      <input type="text" name="name" placeholder="nombre"/>
+      <br />
+      <label for="apellidos">Apellidos:</label>
+      <input type="text" name="apellidos" />
+      <br/>
+      <select name="provincia">
+          <optgroup label="Provincia">
+              <option value="co">A Coruña</option>
+              <option value="po">Pontevedra</option>
+              <option value="lu">Lugo</option>
+              <option value="ou">Ourense</option>
+          </optgroup>
+      </select>
+      <br>
+      <!--Como recojemos en el formulario el texto introducido en el TextArea? Etiqueta Value?-->
+      <textarea cols="10" rows="10" ></textarea>
+      <br>
+      <button type="submit" value="Enviar">Enviar</button>
+      <button type="reset">Limpiar Formulario</button><br/>
+      <label for="genero">Sexo:</label><br/>
+      <input type="radio" name="genero" value="masculino"/>Hombre<br/>
+      <input type="radio" name="genero" value="femenino"/>Mujer<br/>
+      <label for="dispositivos">Dispositivos Electrónicos:</label><br/>
+      <input type="checkbox" name="dispositivos" value="tablet"/>Tablet<br/>
+      <input type="checkbox" name="dispositivos" value="movil"/>Móvil<br/>
+      <input type="checkbox" name="dispositivos" value="pc"/>Pc<br/>
+      
+    </form>
+  </body>
+</html>

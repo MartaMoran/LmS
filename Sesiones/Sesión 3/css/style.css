@@ -1,0 +1,6 @@
+[href*="developer"]::after {
+  content: ;
+}
+p {
+  font-style: italic;
+}

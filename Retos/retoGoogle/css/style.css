@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+}
+nav {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  pointer-events: none;
+  color: black;
+  padding: 8px;
+  margin-top: 8px;
+}
+
+.botonInicioSesion {
+  padding: 6px;
+  font-weight: 110px;
+  font-size: 16px;
+  color: blue;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  margin-right: 20px;
+  margin-top: 8px;
+  border-radius: 3px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+  align-items: center;
+}
+
+input[name="search"] {
+  margin-top: 15px;
+  width: 600px;
+  height: 45px;
+  border-radius: 25px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  height: 35px;
+}
+
+.idioms {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  position: absolute;
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+div a:nth-child(3) {
+  flex-grow: 1;
+}
+
+.country {
+  align-self: left;
+  text-decoration: none;
+  padding: 10px;
+  color: #666;
+  font-size: 16px;
+  border-top: 1px solid;
+}
+.others {
+  height: 5px;
+  padding: 15px;
+  display: flex;
+  font-size: 16px;
+  border-top: 1px solid;
+}
+
+.others a {
+  align-self: center;
+  text-decoration: none;
+  padding: 15px;
+  color: #666;
+  pointer-events: none;
+}
