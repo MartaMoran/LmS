@@ -94,6 +94,7 @@ footer {
 
 #container {
     height: 420px;
+    border-radius: 5px;
 }
 
 .highcharts-figure,
@@ -115,6 +116,7 @@ footer {
 
 #container1 {
     height: 420px;
+    border-radius: 5px;
 }
 
 .highcharts-figure,
@@ -127,7 +129,7 @@ footer {
 .highcharts-data-table table {
     font-family: Verdana, sans-serif;
     border-collapse: collapse;
-    border: 1px solid #EBEBEB;
+    border: 1px solid #ebebeb;
     margin: 10px auto;
     text-align: center;
     width: 100%;
@@ -159,5 +161,3 @@ footer {
 .highcharts-data-table tr:hover {
     background: #f1f7ff;
 }
-
-?>
