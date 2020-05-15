@@ -29,7 +29,7 @@ footer {
 }
 
 #dashboardBg {
-    background-image: url("img/dashboard4.png");
+    background-image: url("../img/dashboard4.png");
     background-repeat: no-repeat;
 }
 
@@ -39,7 +39,7 @@ footer {
     border: solid white 1px;
     width: 250px;
     height: 30px;
-    background-image: url("img/iconfinder_icon-111-search_314478.svg");
+    background-image: url("../img/iconfinder_icon-111-search_314478.svg");
     background-repeat: no-repeat;
     background-position: 5%;
     background-size: 20px;

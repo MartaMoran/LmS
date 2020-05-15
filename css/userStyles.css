@@ -1,0 +1,164 @@
+* {
+    font-size: 12px;
+}
+
+.logo {
+    width: 50px;
+    font-family: "Chango", cursive;
+    font-size: 25px;
+    color: rgb(107, 66, 204);
+}
+
+#menu {
+    border: none;
+    background-color: transparent;
+    border-style: none;
+    box-shadow: none;
+    margin-top: 20px;
+}
+
+#menu [class*="img-fluid"] {
+    padding-right: 15px;
+    width: 40px;
+}
+
+.guideline {
+    border-top: solid black 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer {
+    margin-top: 300px;
+}
+
+#dashboardBg {
+    background-image: url("../img/dashboard4.png");
+    background-repeat: no-repeat;
+}
+
+#search {
+    background-color: transparent;
+    border-radius: 30px;
+    border: solid white 1px;
+    width: 250px;
+    height: 30px;
+    background-image: url("../img/iconfinder_icon-111-search_314807.svg");
+    background-repeat: no-repeat;
+    background-position: 5%;
+    background-size: 20px;
+    text-indent: 40px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+div [class*="profile"] {
+    width: 40px;
+    border-radius: 80%;
+    font-size: 12px;
+}
+
+.traffic {
+    color: grey;
+    font: 12px;
+    width: 250px;
+    height: 110px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.traffic [class*="img-fluid"] {
+    width: 45px;
+}
+
+@media (max-width: 700px) {
+    .logo {
+        font-size: 40px;
+    }
+    #menu {
+        font-size: 25px;
+    }
+    div [class*="text-dark"] {
+        font-size: 15px;
+    }
+    #aboutUs p {
+        font-size: 10px;
+    }
+    #aboutUs a {
+        font-size: 10px;
+    }
+    footer {
+        margin-top: 100px;
+    }
+    #upgrade {
+        margin-top: 30px;
+    }
+}
+
+
+/* FORM ICONS */
+
+.icon {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.icon .fa {
+    position: absolute;
+    padding: 10px;
+}
+
+.inside .fa {
+    left: 0px;
+}
+
+.inside input {
+    padding-left: 35px;
+}
+
+
+/* DATA TABLE */
+
+.central-row {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.back-table {
+    background-color: #ccd1d1;
+}
+
+
+/* BUTTONS */
+
+.users-border {
+    border: 2px solid rgb(174, 214, 241);
+    background-color: rgb(214, 234, 248);
+    border-radius: 3px;
+}
+
+.btn-state {
+    border-radius: 100px;
+    /* opacity: 0.07; */
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+.overmousse>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* padding:10px; */
+    margin: 0;
+}
