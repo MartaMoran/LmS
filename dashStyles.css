@@ -1,95 +1,163 @@
-*{
+* {
     font-size: 12px;
-
 }
 
-.logo{
+.logo {
     width: 50px;
-    font-family: 'Chango', cursive;
+    font-family: "Chango", cursive;
     font-size: 25px;
-    color:rgb(107, 66, 204);
+    color: rgb(107, 66, 204);
 }
 
 .menu [class*="img-fluid"] {
-    margin-top:20px;
+    margin-top: 20px;
     padding-right: 10px;
     width: 40px;
 }
 
-
-.guideline{
-    border-top:solid black 1px;
-    margin-top:30px;
-    margin-bottom:30px;
-    padding-top:20px;
+.guideline {
+    border-top: solid black 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
     font-weight: bold;
-    font-size:14px;
-    
-}
-footer{
-    margin-top: 300px;
+    font-size: 14px;
 }
 
-#dashboardBg{
-    background-image: url("../img/dashboard4.png");
+footer {
+    margin-top: 50px;
+}
+
+#dashboardBg {
+    background-image: url("img/dashboard4.png");
     background-repeat: no-repeat;
 }
 
-#search{
-    background-color:transparent;
-    border-radius:30px;
-    border:solid white 1px;
+#search {
+    background-color: transparent;
+    border-radius: 30px;
+    border: solid white 1px;
     width: 250px;
-	height: 30px;
-    background-image: url("../img/iconfinder_icon-111-search_314478.svg");
-    background-repeat:no-repeat;
+    height: 30px;
+    background-image: url("img/iconfinder_icon-111-search_314478.svg");
+    background-repeat: no-repeat;
     background-position: 5%;
     background-size: 20px;
-    text-indent:40px;
+    text-indent: 40px;
     font-size: 14px;
     margin-top: 20px;
-    margin-left:70px
+    margin-left: 70px;
 }
 
-
-.traffic{
-    color:grey;
+.traffic {
+    color: grey;
     font: 12px;
     width: 230px;
     height: 110px;
     background-color: white;
-    margin-top:30px;
-    margin-left:10px;
-    padding:10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 10px;
     border-radius: 5px;
 }
+
 .traffic [class*="img-fluid"] {
     width: 45px;
 }
 
 @media (max-width: 700px) {
-    .logo{
-        font-size:40px;
+    .logo {
+        font-size: 40px;
     }
-    .menu{
-        font-size:25px;
+    .menu {
+        font-size: 25px;
     }
     div [class*="text-dark"] {
         font-size: 15px;
     }
     #aboutUs p {
-        font-size:10px;
+        font-size: 10px;
     }
     #aboutUs a {
         font-size: 10px;
     }
-    footer{
-        margin-top:100px;
+    footer {
+        margin-top: 20px;
     }
-    #search{
-        margin-left:10px;
+    #search {
+        margin-left: 10px;
     }
-    #upgrade{
-        margin-top:30px;
+    #upgrade {
+        margin-top: 30px;
     }
 }
+
+#container {
+    height: 420px;
+}
+
+.highcharts-figure,
+.highcharts-data-table table {
+    min-width: 350px;
+    max-width: 700px;
+    margin: 1em auto;
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+#container1 {
+    height: 420px;
+}
+
+.highcharts-figure,
+.highcharts-data-table table {
+    min-width: 310px;
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #EBEBEB;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+    padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+?>
