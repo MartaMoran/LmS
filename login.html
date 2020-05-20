@@ -1,123 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-        
-    <!-- Bootstrap: -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
 
-     <!-- Icons: -->
-     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap: -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+    <!-- Icons: -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
     <title>Login</title>
 </head>
 
 <body>
-
-                    <!-- HEADER -->
+    <!-- HEADER -->
     <div class="container-fluid mb-5">
         <div class="container">
             <div class="row d-flex justify-content-between py-4">
                 <div class="col-3">
-                    <img src="img/logo-argon.png" alt="">
+                    <img src="img/logo-argon.png" alt="" />
                 </div>
-                <div class="col-7 d-none d-sm-block d-md-inline-block text-right">
-                    <a href=""> <i class="fa fa-globe text-white" style="font-size:20px"> Panel de Control</i></a>
-                    <a href=""> <i class="fa fa-user-circle text-white mx-4" style="font-size:20px"> Registrarse</i></a>
-                    <a href=""> <i class="fa fa-key text-white" style="font-size:20px"> Iniciar Sesión</i></a>
-                    <a href=""> <i class="fa fa-user text-white ml-4" style="font-size:20px" > Perfil</i></a>
-                </div>
-            </div>
+                <div class="col-7 d-none d-lg-block d-lg-inline-block text-right">
+                    <a href="">
+                        <i class="fa fa-globe text-white" style="font-size: 20px;">
+                Panel de Control</i
+              ></a
+            >
+            <a href="">
+              <i
+                class="fa fa-user-circle text-white mx-4"
+                style="font-size: 20px;"
+              >
+                Registrarse</i
+              ></a
+            >
+            <a href="">
+              <i class="fa fa-key text-white" style="font-size: 20px;">
+                Iniciar Sesión</i
+              ></a
+            >
+            <a href="">
+              <i class="fa fa-user text-white ml-4" style="font-size: 20px;">
+                Perfil</i
+              ></a
+            >
+          </div>
         </div>
+      </div>
     </div>
 
-    <div class="container">
-                
-                    <!-- WELCOME MESSAGE -->
-        <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-8" class="text-center">
-                <h4 class="text-center text-white my-4" > <strong> Bienvenido a la Pizarra Argon. Vista previa GRATIS de Laravel en vivo. </strong></h4>
-            </div>
-        </div>
-
-                    <!-- SIGN IN FORM -->
-        <div class="row justify-content-center mt-5">
-            <div class="col-sm-12 col-md-6 bg-light text-center">
-                <div class="text-muted py-4"> <b> Inicia sesión con </b></div>
-                <button type="button" class="buttons mr-2"> <i class="fa fa-github mr-2" style="font-size:25px"></i> <a href="" class="brand-to-sign"> <b class="ml-2"> Github </b></a></button>
-                <button type="button" class="buttons ml-2 mb-3"> <img src="img/google.jpg"><a href="" class="brand-to-sign"> <b class="ml-2">Google</b> </a> </button>
-            
-                <hr class="my-5">
-
-                <a href=""> <b> Crea una nueva cuenta </b></a> <span class="text-muted mb-5"> O inicia sesión con tu nombre de usuario <strong> admin@argon.com </strong> y contraseña <strong>secreta</strong></span>
-
-                    <!-- FORMULARIO -->
-                <form>
-                    <div class="form-group mx-4 mt-5">
-                        <div class="icon inside">
-                            <i class="fa fa-envelope"  style="font-size:18px"></i>
-                            <input type="text" class="form-control" placeholder="admin@argon.com" />
-                        </div>
-                        <div class="icon inside mb-4">
-                            <i class="fa fa-lock" style="font-size:20px"></i>
-                            <input type="email" class="form-control" id="" placeholder="********">
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    
-        <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-6 bg-light">
-                <label class="text-align-left">
-                    <span class="pl-4"><input style="font-size:50px" type="checkbox" name="subscribe">  Recordar mis datos</span>
-                </label>
-            </div>
-        </div>
-
-        <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-6 bg-light text-center">
-                <input type="submit" class="sign-but" value="Iniciar Sesión">
-            </div>
-        </div>
-    
-        <div class="row justify-content-center mt-3 mb-5">
-            <div class="col-sm-12 col-md-6">
-                <div class="row d-flex justify-content-between">
-                    <div class="col-5">
-                        <a href="" class="text-white"> <b> ¿Olvidaste tu contraseña? </b></a>
-                    </div>
-                    <div class="col-5 text-right">
-                        <a href="" class="text-white"> <b> Crear una cuenta</b></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-                    <!-- FOOTER -->
     <div class="container-fluid">
-        <div class="container">
-            <div class="footer">
-                <div class="row d-flex justify-content-between mt-5">
-                    <div class="col-sm-12 col-md-3 d-sm-block text-center">
-                        <i class="fa fa-copyright" style="font-size:15px"></i> 2019 <a href="">Creative Tim</a> & <a href="">Updivision</a>
-                    </div>
-                    <div class="col-sm-12 col-md-5 d-sm-block text-center">
-                        <a href="" class="text-muted">Tim Creativo</a>
-                        <a href="" class="text-muted mx-2">Updivision</a>
-                        <a href="" class="text-muted">Sobre nosotros</a>
-                        <a href="" class="text-muted mx-2">Blog</a>
-                        <a href="" class="text-muted">Licencia MIT</a>
-                    </div>
-                </div>
-            </div>
+      <!-- WELCOME MESSAGE -->
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8" class="text-center">
+          <h4 class="text-center text-white my-4">
+            <strong>
+              Bienvenido a la Pizarra Argon. Vista previa GRATIS de Laravel en
+              vivo.
+            </strong>
+          </h4>
         </div>
+      </div>
+
+      <!-- SIGN IN FORM -->
+      <div class="row justify-content-center mt-5">
+        <div class="col-sm-12 col-md-6 bg-light text-center">
+          <div class="text-muted py-4"><b> Inicia sesión con </b></div>
+          <button type="button" class="buttons mr-2">
+            <i class="fa fa-github mr-2" style="font-size: 25px;"></i>
+                        <a href="" class="brand-to-sign"> <b class="ml-2"> Github </b></a>
+                        </button>
+                        <button type="button" class="buttons ml-2 mb-3">
+            <img src="img/google.jpg" /><a href="" class="brand-to-sign">
+              <b class="ml-2">Google</b>
+            </a>
+          </button>
+
+                        <hr class="my-5" />
+
+                        <a href="register.html"> <b> Crea una nueva cuenta </b></a>
+                        <span class="text-muted mb-5">
+            O inicia sesión con tu nombre de usuario
+            <strong> admin@argon.com </strong> y contraseña
+            <strong>secreta</strong></span
+          >
+
+          <!-- FORMULARIO -->
+          <form>
+            <div class="form-group mx-4 mt-5">
+              <div class="icon inside">
+                <i class="fa fa-envelope" style="font-size: 18px;"></i>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="admin@argon.com"
+                />
+              </div>
+              <div class="icon inside mb-4">
+                <i class="fa fa-lock" style="font-size: 20px;"></i>
+                <input
+                  type="password"
+                  class="form-control"
+                  id=""
+                  placeholder="********"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-6 bg-light">
+          <label class="text-align-left">
+            <span class="pl-4"
+              ><input
+                style="font-size: 50px;"
+                type="checkbox"
+                name="subscribe"
+              />
+              Recordar mis datos</span
+            >
+          </label>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-6 bg-light text-center">
+          <a href="dashboard.html">
+            <input type="submit" class="sign-but" value="Iniciar Sesión"
+          /></a>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mt-3 mb-5">
+        <div class="col-sm-12 col-md-6">
+          <div class="row d-flex justify-content-between">
+            <div class="col-6">
+              <button type="button" class="btn btn-link text-white" data-toggle="modal" data-target="#password"> <b> ¿Olvidaste la contraseña? </b></button> 
+            </div>
+            <div class="col-5 text-right">
+              <a href="register.html" class="text-white">
+                <b> Crear una cuenta</b></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="password">
+      <div class="modal-dialog modal-md">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title">Restablecer contraseña</h4>
+                  <button type="button" class="close" data-dismiss="modal">X</button>
+              </div>
+
+              <div class="modal-body">
+                  <h6>Introduce la dirección de correo electrónico que usaste para registrarte. Te enviaremos un correo electrónico con tu nombre de usuario y un enlace para restablecer tu contraseña.</h6>
+
+                  <div class="form-group text-center mt-4">
+                    <input type="email" class="form-control" id="email-w" placeholder="tucorreo@ejemplo.com" name="email">
+                  </div>
+              </div>
+
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Enviar</button>
+              </div>
+          </div>
+      </div>
     </div>
 
-</body>
+    <!-- FOOTER -->
+    <div class="container-fluid">
+      <div class="container">
+        <div class="footer">
+          <div class="row d-flex justify-content-between mt-5">
+            <div class="col-sm-12 col-md-3 d-sm-block text-center">
+              <i class="fa fa-copyright" style="font-size: 15px;"></i> 2019
+              <a href="">Creative Tim</a> & <a href="">Updivision</a>
+            </div>
+            <div class="col-sm-12 col-md-5 d-sm-block text-center">
+              <a href="" class="text-muted">Tim Creativo</a>
+              <a href="" class="text-muted mx-2">Updivision</a>
+              <a href="" class="text-muted">Sobre nosotros</a>
+              <a href="" class="text-muted mx-2">Blog</a>
+              <a href="" class="text-muted">Licencia MIT</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
