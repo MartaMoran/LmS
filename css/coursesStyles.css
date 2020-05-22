@@ -29,7 +29,7 @@ footer {
 }
 
 #dashboardBg {
-    background-image: url("../img/dashboard4.png");
+    background-image: url(../img/dashboard4.png);
     background-repeat: no-repeat;
 }
 
@@ -73,11 +73,9 @@ div .dataReviews {
     background-color: rgb(204, 198, 198);
 }
 
-.icon .fa {
-    position: absolute;
-    padding: 10px;
+.iconForm {
+    font-family: "fontawesome";
 }
-
 @media (max-width: 700px) {
     .logo {
         font-size: 40px;
@@ -104,12 +102,9 @@ div .dataReviews {
         margin-top: 30px;
     }
 }
-
-/* update button */
-#input-data{
-    width: 120px;
-}
-
-.activity{
-    width: 120px;
+@media (min-width: 1450px) {
+    #dashboardBg {
+        background-image: url(../img/dashboard4xl.svg);
+        background-size: cover;
+    }
 }

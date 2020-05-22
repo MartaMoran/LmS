@@ -1,0 +1,69 @@
+.logoFirefox {
+    width: 130px;
+    height: 40px;
+}
+
+.nav-link {
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+#headerH1{
+    background-image: url("https://images5.alphacoders.com/883/883579.png");
+    height: 120px;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+
+.basket-shop{
+    font-size: 40px;
+    font-family: serif;
+    margin-right: 20px;
+}
+
+.search{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 50px;
+    background-color: lavender;
+}
+
+.glass{
+    border-radius: 4px;
+    height: 40px;
+}
+
+.buy-options{
+    text-align: right;
+}
+
+.price-red{
+    color: red;
+    font-size: 25px;
+}
+
+.price-black{
+    font-size: 20px;
+    margin-top: -15px;
+    margin-bottom: 0px;
+}
+
+#align{
+    margin-right: 36px;
+}
+
+.pay{
+    width: 100%;
+}
+
+.marg{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+#button-add{
+    width: 150px;
+}

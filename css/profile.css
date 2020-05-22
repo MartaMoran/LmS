@@ -1,0 +1,132 @@
+*{
+    font-size: 12px;
+
+}
+
+.logo{
+    width: 50px;
+    font-family: 'Chango', cursive;
+    font-size: 25px;
+    color:rgb(107, 66, 204);
+}
+
+.menu [class*="img-fluid"] {
+    margin-top:20px;
+    padding-right: 10px;
+    width: 40px;
+}
+
+.guideline{
+    border-top:solid black 1px;
+    margin-top:30px;
+    margin-bottom:30px;
+    padding-top:20px;
+    font-weight: bold;
+    font-size:14px;
+    
+}
+footer{
+    margin-top: 100px;
+}
+#upgrade{
+    margin-top: 250px;
+}
+#dashboardBg{
+    background-image: url(../img/profilebg.png);
+    background-repeat: no-repeat;
+    background-color: #eeeef4;
+}
+#search{
+    background-color:transparent;
+    border-radius:30px;
+    border:solid white 1px;
+    width: 250px;
+	height: 30px;
+    background-image: url("../img/iconfinder_icon-111-search_314478.svg");
+    background-repeat:no-repeat;
+    background-position: 5%;
+    background-size: 20px;
+    text-indent:40px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+div [class*="profile"] {
+    width: 40px;
+    border-radius: 80%;
+    font-size: 12px;
+}
+#adminProfile {
+    width: 400px;
+    margin-top:px;
+}
+div .editProfile{
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 10px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+#userInfo {
+    font-family: "fontawesome";
+    background-color:rgb(247, 242, 242);
+    padding:10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius:0px ;
+    box-shadow: 1px 1px 1px 1px rgb(235, 234, 234);
+}
+#socialProfile{
+    margin-top:-41px;
+    border-radius: 5px;
+}
+div .profileImage{
+    margin-top: -50px;
+
+}
+
+@media (max-width: 700px) {
+    .logo{
+        font-size:40px;
+    }
+    #menu{
+        font-size:25px;
+    }
+    div [class*="text-dark"] {
+        font-size: 15px;
+    }
+    #aboutUs p {
+        font-size:10px;
+    }
+    #aboutUs a {
+        font-size: 10px;
+    }
+    footer{
+        margin-top:100px;
+    }
+    #search{
+        margin-left:10px;
+    }
+    #upgrade{
+        margin-top:30px;
+    }
+    div .editProfile{
+        margin-left: 10px;
+    }
+    #userInfo{
+        margin-left:10px;
+    }
+    #socialProfile{
+        margin-top: 100px;
+        margin-left:x;
+    }
+}
+@media (min-width: 1450px) {
+    #dashboardBg {
+        background-image: url(../img/profilebg2.svg);
+        background-size: cover;
+    }
+}

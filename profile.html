@@ -2,16 +2,16 @@
 
 <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
-    <!--icons-->
-    <script src="https://kit.fontawesome.com/954c35f21a.js" crossorigin="anonymous"></script>
-    <title>Revisiones</title>
-    <link rel="stylesheet" href="css\reviewStyles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet" />
+       <!--icons-->
+       <script src="https://kit.fontawesome.com/954c35f21a.js" crossorigin="anonymous"></script>
+    <title>Perfil</title>
+    <link rel="stylesheet" href="css/profile.css" />
 </head>
 
 <body>
@@ -62,7 +62,7 @@
                         clip-rule="evenodd"
                       />
                     </svg>
-                                    <a href="" class="text-dark">Cursos</a>
+                                    <a href="courses.html" class="text-dark">Cursos</a>
                                 </div>
                             </li>
                             <li class="nav-item pt-4">
@@ -187,212 +187,155 @@
             </div>
             <div id="dashboardBg" class="col-12 col-md-10">
                 <div class="row">
-                    <div class="col-md-6 p-4">
-                        <h2 class="text-white font-weight-bold d-none d-md-block">
-                            REVISIONES
-                        </h2>
+                    <div class="col-md-6 p-5">
+                        <div class="col-md-6"></div>
                     </div>
                     <div class="col-9 col-md-4">
-                        <input id="search" type="text" class="rounded-pill" placeholder="Buscar">
+                        <input id="search" type="text" class="rounded-pill text-dark font-weight-bold bg-white" placeholder="Buscar" />
                     </div>
                     <div class="col-3 d-none col-md-2 d-md-block pt-4">
-                        <img class="img-fluid rounded-circle w-25" src="img\post-21.jpg" alt="...">
-                        <a class=" text-white profile" href="">Admin Admin</a>
+                        <img class="img-fluid rounded-circle w-25" src="img\post-21.jpg" alt="..." />
+                        <a class="text-white profile" href="">Admin Admin</a>
+                    </div>
+                </div>
+                <div id="adminProfile" class="col-md-10 pt-4">
+                    <h1 class="text-white">Hola Admin Admin</h1>
+                    <p class="text-white mt-4">
+                        Esta es tu página de perfil. Aquí puedes ver el progreso que has ido teniendo en tu trabajo, además aquí puedes organizar tus proyectos y tareas asignadas.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-11 col-md-7 editProfile">
+                        <p class="font-weight-bold">Editar Perfil</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6 col-md-3">
-                        <div class="row no-gutters traffic">
-                            <div class="col-8">
-                                <p>TRAFICO</p>
-                                <h5 class="text-dark font-weight-bold">350,897</h5>
-                                <img src="img\iconfinder_up_13520.png"> <span class="text-success">3,48%</span> desde el mes pasado
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img\iconfinder_23_1668026.svg">
-                            </div>
+                    <div id="userInfo" class="col-11 col-md-7">
+                        <div>
+                            <p>Información de Usuario</p>
+                            <form>
+                                <div class="form-group font-weight-bold">
+                                    <label for="exampleInputEmail1">Nombre</label>
+                                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Admin Admin" />
+                                </div>
+                                <div class="form-group font-weight-bold">
+                                    <label for="exampleInputPassword1">Email</label>
+                                    <input type="email" class="form-control" placeholder="admin@argon.com" />
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-success">
+                      Guardar
+                    </button>
+                                </div>
+                            </form>
                         </div>
-
-                    </div>
-                    <div class="col-6 col-md-3">
-                        <div class="row no-gutters traffic">
-                            <div class="col-8">
-                                <p>NUEVOS USUARIOS</p>
-                                <h5 class="text-dark font-weight-bold">2,356</h5>
-                                <img src="img\iconfinder_Stock Index Down_27880.png"> <span class="text-danger">3,48%</span> desde la semana pasada
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img\iconfinder_Circular_chart_diagram_infographic_pie_chart_pie_graph_statistics_1886523.svg">
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-6 col-md-3">
-                        <div class="row no-gutters traffic">
-                            <div class="col-8">
-                                <p>REBAJAS</p>
-                                <h5 class="text-dark font-weight-bold">954</h5>
-                                <img src="img\iconfinder_Stock Index Down_27880.png"> <span class="text-danger">1,10%</span> desde ayer
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img\iconfinder_law_iconsArtboard_1_copy_3_2393031.svg">
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-6 col-md-3">
-                        <div class="row no-gutters traffic">
-                            <div class="col-8">
-                                <p>RENDIMIENTO</p>
-                                <h5 class="text-dark font-weight-bold">49,65%</h5>
-                                <img src="img\iconfinder_up_13520.png"> <span class="text-success">12%</span> desde el mes pasado
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img\iconfinder_percentage-sign_532797.svg">
-                            </div>
-                        </div>
-
-                    </div>
+                        <div>
+                            <p>Password</p>
+                            <form>
+                                <div class="form-group font-weight-bold">
+                                    <label for="exampleInputEmail1">Contraseña Actual</label>
+                                    <input type="password" class="form-control" aria-describedby="emailHelp" placeholder="Contraseña Actual" />
+                                </div>
+                                <div class="form-group font-weight-bold">
+                                    <label for="exampleInputPassword1">Nueva Contraseña</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Nueva Contraseña" />
+                                </div>
+                                <div class="form-group font-weight-bold">
+                                    <label for="exampleInputPassword1">Confirmar Nueva Contraseña</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="exampleInputPassword1"
+                      placeholder="Confirmar Nueva Contraseña"
+                    />
+                  </div>
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-success">
+                      Confirmar Contraseña
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div id="socialProfile" class="col-12 col-md-4 h-75 bg-white">
+              <div class="row">
+                <div class="col-3 p-4">
+                  <button type="button" class="btn btn-primary">Conecta</button>
                 </div>
-                <div class="bg-white mt-3 dataReviews">
-                    <div class="row">
-                        <div class="col-2  mt-3 mx-4">
-                            <H5 class="font-weight-bold">REVISIONES</H5>
-                        </div>
-                        <div class="col-2 mt-3 ">
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#mymodal"><i class="fas fa-sync"></i>
-                  </button>
-
-                            <div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="mymodal" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <h4 class="text-success text-center">NO HAY ACTUALIZACIONES PENDIENTES</h4>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!--modal delete-->
-                    <div class="modal fade" id="delete">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title">Eliminar Contenido</h5>
-                                    <button type="button" class="close" data-dismiss="modal">×</button>
-                                </div>
-
-                                <div class="modal-body">
-                                    ¿Desea eliminar el contenido actual? Se requiere contraseña:
-                                    <div class="icon inside">
-                                        <i class="fa fa-lock" style="font-size:14px"></i>
-                                        <input type="password" class="form-control pt-2 pl-5" placeholder="********" />
-                                    </div>
-                                </div>
-
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Eliminar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="table-responsive">
-                                <table class="table mt-3 text-center">
-                                    <thead class="headTable">
-                                        <tr>
-                                            <th>#</th>
-                                            <th>Fecha de modificación</th>
-                                            <th>Tipo de Contenido</th>
-                                            <th>Usuario</th>
-                                            <th>Ajustes</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>15/05/2020 14:03h</td>
-                                            <td>Imagen</td>
-                                            <td>Felipe Diaz</td>
-                                            <td>
-                                                </button> <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#delete"><i class="fa fa-trash" style="font-size:14px"></i>
-                            </td>
-                           </tr>
-                           <tr>
-                            <td>2</td>
-                            <td>12/05/2020 11:23h</td>
-                            <td>Enlace</td>
-                            <td>Alejandro Gonzales</td>
-                            <td>
-                             </button> <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#delete"><i class="fa fa-trash" style="font-size:14px"></i>
-                            </td>
-                           </tr>
-                           <tr>
-                            <td>3</td>
-                            <td>11/05/2020 15:30h</td>
-                            <td>Enlace</td>
-                            <td>Adriana López</td>
-                            <td>
-                             </button> <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#delete"><i class="fa fa-trash" style="font-size:14px"></i>
-                            </td>
-                           </tr>
-                           <tr>
-                            <td>4</td>
-                            <td>10/05/2020 23:03h</td>
-                            <td>Imagen</td>
-                            <td>Ana Iglesias</td>
-                            <td>
-                             </button> <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#delete"><i class="fa fa-trash" style="font-size:14px"></i>
-                            </td>
-                           </tr>
-
-                       </tbody>
-                    </table>
+                <div class="col-6 profileImage">
+                  <img class="img-fluid rounded-circle" src="img\post-21.jpg" />
+                </div>
+                <div class="col-3 p-4">
+                  <button type="button" class="btn btn-primary">Mensaje</button>
+                </div>
+                <div class="row mt-5 ml-4">
+                  <div class="col-2 mr-4 mx-auto">
+                    <a href="" class="text-dark p-3 font-weight-bold">22</a>
+                    <p>Amigos</p>
+                  </div>
+                  <div class="col-2 mr-4">
+                    <a href="" class="text-dark p-2 font-weight-bold">10</a>
+                    <p>Fotos</p>
+                  </div>
+                  <div class="col-2 mr-5">
+                    <a href="" class="text-dark p-4 font-weight-bold">89</a>
+                    <p>Comentarios</p>
                   </div>
                 </div>
               </div>
-
-
+              <div class="text-center m-5">
+                <h3>Admin Admin, 27</h3>
+                <p class="ml-4">Bucarest, Rumanía</p>
+              </div>
+              <p class="text-center">
+                Ryan--El nombre adoptado por el nacido en Melbourne, pero que
+                vive actualmente en Brooklyn Nick Murphy--compone toca y graba
+                toda su música.
+              </p>
+              <div class="text-center mb-3">
+                <a href="">Mostrar más</a>
+              </div>
+            </div>
           </div>
-              <footer>
-                <div id="AboutUs" class="row">
-                 <div  class="col-4 col-md-6 d-flex">
-                   <p class="pr-2"> © 2019</p>
-                   <a href="">Creative Tim</a> &
-                   <a href="">Updivision</a>
-                  </div>
-                  <div class="col-8 col-md-6">
-                   <a  class="text-dark mr-3 mr-md-5" href=""> Creative Tim</a>
-                   <a class="text-dark mr-3 mr-md-5" href=""> Updivision</a>
-                   <a class="text-dark mr-3 mr-md-5" href=""> Acerca de Nosotros</a>
-                   <a class="text-dark mr-3 mr-md-5" href=""> Blog</a>
-                   <a class="text-dark" href=""> Licencia MIT </a>
-                 </div>
-                </div>
-              </footer>
+          <footer>
+            <div id="AboutUs" class="row">
+              <div class="col-4 col-md-6 d-flex">
+                <p class="pr-2">© 2019</p>
+                <a href="">Creative Tim</a> &
+                <a href="">Updivision</a>
+              </div>
+              <div class="col-8 col-md-6">
+                <a class="text-dark mr-3 mr-md-5" href=""> Creative Tim</a>
+                <a class="text-dark mr-3 mr-md-5" href=""> Updivision</a>
+                <a class="text-dark mr-3 mr-md-5" href="">
+                  Acerca de Nosotros</a
+                >
+                <a class="text-dark mr-3 mr-md-5" href=""> Blog</a>
+                <a class="text-dark" href=""> Licencia MIT </a>
+              </div>
+            </div>
+          </footer>
         </div>
-       </div>
+      </div>
 
-    
-  
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+      ></script>
     </div>
   </body>
-
 </html>
