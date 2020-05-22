@@ -104,7 +104,9 @@ div .dataReviews {
 }
 @media (min-width: 1450px) {
     #dashboardBg {
-        background-image: url(../img/dashboard4xl.svg);
-        background-size: cover;
+        background-image: url(../img/dashboard5xl.png);
+        background-size: 50%;
+        background-repeat: repeat-x;    
+        background-color:#eeeef4;
     }
 }
