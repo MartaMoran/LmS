@@ -2,91 +2,105 @@
 
 <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
+    <!--icons-->
+    <script src="https://kit.fontawesome.com/954c35f21a.js" crossorigin="anonymous"></script>
     <title>Tareas</title>
-    <link rel="stylesheet" href="dashStyles.css" />
+    <link rel="stylesheet" href="css\homeworkStyles.css">
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-md-2">
-                <div>
+                <div class="">
                     <img class="img-fluid pb-3 logo" src="img\logo.png" />
                     <span class="logo">argon</span>
                 </div>
                 <nav class="navbar navbar-expand-md">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <img
-                class="navbar-toggler-icon w-75 h-75"
-                src="img\iconfinder_45_Menu_106200 (2).png"
-              />
-            </button>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><img class="navbar-toggler-icon w-75 h-75" src="img\iconfinder_45_Menu_106200 (2).png"/></button>
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav flex-column">
                             <li class="nav-item">
                                 <div class="menu">
-                                    <img class="img-fluid" src="img\iconfinder_books_86105 (1).png" />
+                                    <svg class="bi bi-house" width="40px" height="20px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 00.5.5h9a.5.5 0 00.5-.5V7h1v6.5a1.5 1.5 0 01-1.5 1.5h-9A1.5 1.5 0 012 13.5zm11-11V6l-2-2V2.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z" clip-rule="evenodd"/>
+                                        <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 011.414 0l6.647 6.646a.5.5 0 01-.708.708L8 2.207 1.354 8.854a.5.5 0 11-.708-.708L7.293 1.5z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <a href="dashboard.html" class="text-dark">Inicio</a>
+                                </div>
+                            </li>
+                            <li class="nav-item pt-4">
+                                <div class="menu">
+                                    <svg class="bi bi-book" width="40px" height="20px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M3.214 1.072C4.813.752 6.916.71 8.354 2.146A.5.5 0 018.5 2.5v11a.5.5 0 01-.854.354c-.843-.844-2.115-1.059-3.47-.92-1.344.14-2.66.617-3.452 1.013A.5.5 0 010 13.5v-11a.5.5 0 01.276-.447L.5 2.5l-.224-.447.002-.001.004-.002.013-.006a5.017 5.017 0 01.22-.103 12.958 12.958 0 012.7-.869zM1 2.82v9.908c.846-.343 1.944-.672 3.074-.788 1.143-.118 2.387-.023 3.426.56V2.718c-1.063-.929-2.631-.956-4.09-.664A11.958 11.958 0 001 2.82z" clip-rule="evenodd"/>
+                                        <path fill-rule="evenodd" d="M12.786 1.072C11.188.752 9.084.71 7.646 2.146A.5.5 0 007.5 2.5v11a.5.5 0 00.854.354c.843-.844 2.115-1.059 3.47-.92 1.344.14 2.66.617 3.452 1.013A.5.5 0 0016 13.5v-11a.5.5 0 00-.276-.447L15.5 2.5l.224-.447-.002-.001-.004-.002-.013-.006-.047-.023a12.582 12.582 0 00-.799-.34 12.96 12.96 0 00-2.073-.609zM15 2.82v9.908c-.846-.343-1.944-.672-3.074-.788-1.143-.118-2.387-.023-3.426.56V2.718c1.063-.929 2.631-.956 4.09-.664A11.956 11.956 0 0115 2.82z" clip-rule="evenodd"/>
+                                    </svg>
                                     <a href="" class="text-dark">Cursos</a>
                                 </div>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item pt-4">
                                 <div class="menu">
-                                    <img class="img-fluid" src="img\iconfinder_checklist_job_seeker_employee_unemployee_work_2620529.png" />
+                                    <svg class="bi bi-card-checklist" width="40px" height="20px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 00-.5.5v9a.5.5 0 00.5.5h13a.5.5 0 00.5-.5v-9a.5.5 0 00-.5-.5zm-13-1A1.5 1.5 0 000 3.5v9A1.5 1.5 0 001.5 14h13a1.5 1.5 0 001.5-1.5v-9A1.5 1.5 0 0014.5 2h-13z" clip-rule="evenodd" />
+                                        <path fill-rule="evenodd" d="M7 5.5a.5.5 0 01.5-.5h5a.5.5 0 010 1h-5a.5.5 0 01-.5-.5zm-1.496-.854a.5.5 0 010 .708l-1.5 1.5a.5.5 0 01-.708 0l-.5-.5a.5.5 0 11.708-.708l.146.147 1.146-1.147a.5.5 0 01.708 0zM7 9.5a.5.5 0 01.5-.5h5a.5.5 0 010 1h-5a.5.5 0 01-.5-.5zm-1.496-.854a.5.5 0 010 .708l-1.5 1.5a.5.5 0 01-.708 0l-.5-.5a.5.5 0 01.708-.708l.146.147 1.146-1.147a.5.5 0 01.708 0z" clip-rule="evenodd" />
+                                    </svg>
                                     <a href="" class="text-dark">Tareas</a>
                                 </div>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item pt-4">
                                 <div class="menu">
-                                    <img class="img-fluid" src="img\iconfinder_people-group-team-peoples-friend_3643747.png" />
-                                    <a href="" class="text-dark">Personas</a>
+                                    <svg class="bi bi-people" width="40px" height="20px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.995-.944v-.002.002zM7.022 13h7.956a.274.274 0 00.014-.002l.008-.002c-.002-.264-.167-1.03-.76-1.72C13.688 10.629 12.718 10 11 10c-1.717 0-2.687.63-3.24 1.276-.593.69-.759 1.457-.76 1.72a1.05 1.05 0 00.022.004zm7.973.056v-.002.002zM11 7a2 2 0 100-4 2 2 0 000 4zm3-2a3 3 0 11-6 0 3 3 0 016 0zM6.936 9.28a5.88 5.88 0 00-1.23-.247A7.35 7.35 0 005 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 015 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10c-1.668.02-2.615.64-3.16 1.276C1.163 11.97 1 12.739 1 13h3c0-1.045.323-2.086.92-3zM1.5 5.5a3 3 0 116 0 3 3 0 01-6 0zm3-2a2 2 0 100 4 2 2 0 000-4z" clip-rule="evenodd" />
+                                    </svg>
+                                    <a href="users.html" class="text-dark">Usuarios</a>
                                 </div>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item pt-4">
                                 <div class="menu">
-                                    <img class="img-fluid" src="img\iconfinder_pages-check_2914504.png" />
+                                    <svg class="bi bi-files" width="40px" height="20px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M3 2h8a2 2 0 012 2v10a2 2 0 01-2 2H3a2 2 0 01-2-2V4a2 2 0 012-2zm0 1a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V4a1 1 0 00-1-1H3z" clip-rule="evenodd" />
+                                        <path d="M5 0h8a2 2 0 012 2v10a2 2 0 01-2 2v-1a1 1 0 001-1V2a1 1 0 00-1-1H5a1 1 0 00-1 1H3a2 2 0 012-2z" />
+                                    </svg>
                                     <a href="" class="text-dark">Páginas</a>
                                 </div>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item pt-4">
                                 <div class="menu">
-                                    <img class="img-fluid" src="img\iconfinder_6-File-Document-check_3213309.png" />
-                                    <a href="" class="text-dark">Revisiones</a>
+                                    <svg class="bi bi-folder-check" width="40px" height="20px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M9.828 4H2.19a1 1 0 00-.996 1.09l.637 7a1 1 0 00.995.91H9v1H2.826a2 2 0 01-1.991-1.819l-.637-7a1.99 1.99 0 01.342-1.31L.5 3a2 2 0 012-2h3.672a2 2 0 011.414.586l.828.828A2 2 0 009.828 3h3.982a2 2 0 011.992 2.181L15.546 8H14.54l.265-2.91A1 1 0 0013.81 4H9.828zm-2.95-1.707L7.587 3H2.19c-.24 0-.47.042-.684.12L1.5 2.98a1 1 0 011-.98h3.672a1 1 0 01.707.293z" clip-rule="evenodd" />
+                                        <path fill-rule="evenodd" d="M15.854 10.146a.5.5 0 010 .708l-3 3a.5.5 0 01-.708 0l-1.5-1.5a.5.5 0 01.708-.708l1.146 1.147 2.646-2.647a.5.5 0 01.708 0z" clip-rule="evenodd" />
+                                    </svg>
+                                    <a href="reviews.html" class="text-dark">Revisiones</a>
                                 </div>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item pt-4">
                                 <div class="menu">
-                                    <img class="img-fluid" src="img\iconfinder_sign-in_1608411.png" />
-                                    <a href="" class="text-dark">Acceso</a>
+                                    <svg class="bi bi-x-octagon" width="40px" height="20px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M4.54.146A.5.5 0 014.893 0h6.214a.5.5 0 01.353.146l4.394 4.394a.5.5 0 01.146.353v6.214a.5.5 0 01-.146.353l-4.394 4.394a.5.5 0 01-.353.146H4.893a.5.5 0 01-.353-.146L.146 11.46A.5.5 0 010 11.107V4.893a.5.5 0 01.146-.353L4.54.146zM5.1 1L1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z" clip-rule="evenodd" />
+                                        <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd" />
+                                        <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd" />
+                                    </svg>
+                                    <a href="login.html" class="text-dark">Exit</a>
                                 </div>
                             </li>
-                            <li class="nav-item">
-                                <div class="menu">
-                                    <img class="img-fluid" src="img\iconfinder_thumbs-up_1608950.png" />
-                                    <a href="" class="text-dark"> Registro</a>
-                                </div>
-                            </li>
+
                             <p class="guideLine">Documentación</p>
                             <li class="media mb-3">
                                 <img src="img\iconfinder_rocket_2639900.png" class="mr-3" alt="..." />
                                 <div class="media-body">
-                                    <a class="text-dark" href="">Empieza a utilizar la plataforma</a
-                    >
-                  </div>
-                </li>
-                <li class="media mb-3">
-                  <img
-                    src="img\iconfinder_miscellaneous-59_809420.png"
-                    class="mr-3"
-                    alt="..."
-                  />
-                  <div class="media-body">
-                    <a class="text-dark" href="">Fundación</a>
+                                    <a class="text-dark" href="">Empieza a utilizar la plataforma</a>
+                                </div>
+                            </li>
+                            <li class="media mb-3">
+                                <img src="img\iconfinder_miscellaneous-59_809420.png" class="mr-3" alt="..."/>
+                                <div class="media-body">
+                                    <a class="text-dark" href="">Fundación</a>
                                 </div>
                             </li>
                             <li class="media mb-3">
@@ -109,17 +123,15 @@
             </div>
             <div id="dashboardBg" class="col-12 col-md-10">
                 <div class="row">
-                    <div class="col-md-6 p-5">
-                        <p class="text-white font-weight-bold d-none d-md-block">
-                            TABLERO
-                        </p>
+                    <div class="col-md-6 p-4">
+                        <h2 class="text-white font-weight-bold d-none d-md-block">TAREAS</h2>
                     </div>
                     <div class="col-9 col-md-4">
-                        <input id="search" type="text" class="rounded-pill text-dark font-weight-bold bg-white" placeholder="Buscar" />
+                        <input id="search" type="text" class="rounded-pill" placeholder="Buscar">
                     </div>
                     <div class="col-3 d-none col-md-2 d-md-block pt-4">
-                        <img class="img-fluid rounded-circle w-25" src="img\post-21.jpg" alt="..." />
-                        <a class="text-white profile" href="">Admin Admin</a>
+                        <img class="img-fluid rounded-circle w-25" src="img\post-21.jpg" alt="...">
+                        <a class=" text-white profile" href="">Admin Admin</a>
                     </div>
                 </div>
                 <div class="row">
@@ -128,11 +140,10 @@
                             <div class="col-8">
                                 <p>TRAFICO</p>
                                 <h5 class="text-dark font-weight-bold">350,897</h5>
-                                <img src="img\iconfinder_up_13520.png" />
-                                <span class="text-success">3,48%</span> desde el mes pasado
+                                <img src="img\iconfinder_up_13520.png"> <span class="text-success">3,48%</span> desde el mes pasado
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid" src="img\iconfinder_23_1668026.svg" />
+                                <img class="img-fluid" src="img\iconfinder_23_1668026.svg">
                             </div>
                         </div>
                     </div>
@@ -141,11 +152,10 @@
                             <div class="col-8">
                                 <p>NUEVOS USUARIOS</p>
                                 <h5 class="text-dark font-weight-bold">2,356</h5>
-                                <img src="img\iconfinder_Stock Index Down_27880.png" />
-                                <span class="text-danger">3,48%</span> desde la semana pasada
+                                <img src="img\iconfinder_Stock Index Down_27880.png"> <span class="text-danger">3,48%</span> desde la semana pasada
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid" src="img\iconfinder_Circular_chart_diagram_infographic_pie_chart_pie_graph_statistics_1886523.svg" />
+                                <img class="img-fluid" src="img\iconfinder_Circular_chart_diagram_infographic_pie_chart_pie_graph_statistics_1886523.svg">
                             </div>
                         </div>
                     </div>
@@ -154,11 +164,10 @@
                             <div class="col-8">
                                 <p>REBAJAS</p>
                                 <h5 class="text-dark font-weight-bold">954</h5>
-                                <img src="img\iconfinder_Stock Index Down_27880.png" />
-                                <span class="text-danger">1,10%</span> desde ayer
+                                <img src="img\iconfinder_Stock Index Down_27880.png"> <span class="text-danger">1,10%</span> desde ayer
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid" src="img\iconfinder_law_iconsArtboard_1_copy_3_2393031.svg" />
+                                <img class="img-fluid" src="img\iconfinder_law_iconsArtboard_1_copy_3_2393031.svg">
                             </div>
                         </div>
                     </div>
@@ -167,30 +176,387 @@
                             <div class="col-8">
                                 <p>RENDIMIENTO</p>
                                 <h5 class="text-dark font-weight-bold">49,65%</h5>
-                                <img src="img\iconfinder_up_13520.png" />
-                                <span class="text-success">12%</span> desde el mes pasado
+                                <img src="img\iconfinder_up_13520.png"> <span class="text-success">12%</span> desde el mes pasado
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid" src="img\iconfinder_percentage-sign_532797.svg" />
+                                <img class="img-fluid" src="img\iconfinder_percentage-sign_532797.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white mt-3 dataReviews">
+                    <div class="row mt-4">
+                        <div class="col-2  mt-3 mx-4">
+                            <H5 class="font-weight-bold">TAREAS</H5>
+                        </div>
+                        <div class="col-2 mt-3 ">
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#mymodal"><i class="fas fa-sync"></i></button>
+                            <div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="mymodal" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4 class="text-success text-center">NO HAY NUEVAS TAREAS</h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="table-responsive">
+                                <table class="table mt-3 text-center">
+                                    <thead class="headTable">
+                                        <tr>
+                                            <th>Nombre</th>
+                                            <th>Tipo</th>
+                                            <th>Curso</th>
+                                            <th>Disponible desde <i class="fa fa-angle-double-right" style="font-size:11px"></i> hasta</th>
+                                            <th>Fecha de entrega</th>
+                                            <th>Tipo de entrega</th>
+                                            <th>Grupo de trabajo</th>
+                                            <th>Acciones</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><button type="button" class="btn btn-info mr-3 activity" data-toggle="modal" data-target="#info-homework-1">Crear Aplicación</button></td>
+                                            <td>Ensayo</td>
+                                            <td>React</td>
+                                            <td>17/4/2020 <i class="fa fa-angle-double-right" style="font-size:11px"></i> 15/5/2020</td>
+                                            <td>30/6/2020</td>
+                                            <td>Online</td>
+                                            <td><button type="button" class="btn btn-info mr-3 create" data-toggle="modal" data-target="#group">Crear grupo</button></td>
+                                            <td>
+                                                <div class="row">
+                                                    <div class="col d-flex justify-content-center">
+                                                        <button type="button" class="btn btn-warning mr-3" data-toggle="modal" data-target="#modify"><i class="fa fa-pencil" style="font-size:14px"></i></button> <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#delete"><i class="fa fa-trash" style="font-size:14px"></i></button>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><button type="button" class="btn btn-info mr-3 activity" data-toggle="modal" data-target="#info-homework-2">Vanilla</button></td>
+                                            <td>Deberes</td>
+                                            <td>JavaScript</td>
+                                            <td>10/4/2020 <i class="fa fa-angle-double-right" style="font-size:11px"></i> 30/4/2020</td>
+                                            <td>15/5/2020</td>
+                                            <td>En papel</td>
+                                            <td><button type="button" class="btn btn-info mr-3 create" data-toggle="modal" data-target="#no-group">Crear grupo</button></td>
+                                            <td>
+                                                <div class="row">
+                                                    <div class="col d-flex justify-content-center">
+                                                        <button type="button" class="btn btn-warning mr-3" data-toggle="modal" data-target="#modify"><i class="fa fa-pencil" style="font-size:14px"></i></button> <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#delete"><i class="fa fa-trash" style="font-size:14px"></i></button>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr  r>
+                                            <td><button type="button" class="btn btn-info mr-3 activity" data-toggle="modal" data-target="#info-homework-3">Exposición</button></td>
+                                            <td>Trabajo presencial</td>
+                                            <td>CSS</td>
+                                            <td>21/3/2020 <i class="fa fa-angle-double-right" style="font-size:11px"></i> 30/3/2020</td>
+                                            <td>12/4/2020</td>
+                                            <td>Sin entrega</td>
+                                            <td><button type="button" class="btn btn-info mr-3 create" data-toggle="modal" data-target="#no-group">Crear grupo</button></td>
+                                            <td>
+                                                <div class="row">
+                                                    <div class="col d-flex justify-content-center">
+                                                        <button type="button" class="btn btn-warning mr-3" data-toggle="modal" data-target="#modify"><i class="fa fa-pencil" style="font-size:14px"></i></button> <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#delete"><i class="fa fa-trash" style="font-size:14px"></i></button>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><button type="button" class="btn btn-info mr-3 activity" data-toggle="modal" data-target="#info-homework-4">Geolocalización</button></td>
+                                            <td>Deberes</td>
+                                            <td>HTML</td>
+                                            <td>7/4/2020 <i class="fa fa-angle-double-right" style="font-size:11px"></i> 5/5/2020</td>
+                                            <td>1/6/2020</td>
+                                            <td>Online</td>
+                                            <td><button type="button" class="btn btn-info mr-3 create" data-toggle="modal" data-target="#group">Crear grupo</button></td>
+                                            <td>
+                                                <div class="row">
+                                                    <div class="col d-flex justify-content-center">
+                                                        <button type="button" class="btn btn-warning mr-3" data-toggle="modal" data-target="#modify"><i class="fa fa-pencil" style="font-size:14px"></i></button> <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#delete"><i class="fa fa-trash" style="font-size:14px"></i></button>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                      <!-- INFO HOMEWORK-->
+
+                    <div class="modal fade" id="info-homework-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header text-center">
+                                    <h4>Aplicación de React</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5>Crear una aplicación de React para la búsqueda de fotos</h5>
+                                    <hr>
+                                    <h5>Calificación máxima: 3 puntos</h5>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="info-homework-2">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header text-center">
+                                    <h4>Vanilla JavaScript</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5>Crear una lista interactiva de actividades con Vanilla JavaScript </h5>
+                                    <hr>
+                                    <h5>Calificación máxima: 5 puntos</h5>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="info-homework-3">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header text-center">
+                                    <h4>Exposición CSS</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5>Se realizará una exposición sobre un proyecto de libre elección de las opciones responsive que ofrece CSS vistas durante el curso </h5>
+                                    <hr>
+                                    <h5>Calificación máxima: 4 puntos</h5>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="info-homework-4">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header text-center">
+                                    <h4>Geolocalización con HTML</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5> Crear un programa de geolocalización que use HTML y muestre los resultados en un mapa accediendo al servicio de Google Maps</h5>
+                                    <hr>
+                                    <h5>Calificación máxima: 4 puntos</h5>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- GROUP -->
+                    <div class="modal fade" id="group">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header text-center">
+                                    <h4>Registra aquí a los miembros del grupo para la realización de esta tarea</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">1</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Nombre">
+                                            <input type="text" class="form-control" placeholder="Apellidos">
+                                        </div>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">2</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Nombre">
+                                            <input type="text" class="form-control" placeholder="Apellidos">
+                                        </div>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">3</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Nombre">
+                                            <input type="text" class="form-control" placeholder="Apellidos">
+                                        </div>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">4</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Nombre">
+                                            <input type="text" class="form-control" placeholder="Apellidos">
+                                        </div> 
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">5</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Nombre">
+                                            <input type="text" class="form-control" placeholder="Apellidos">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">REGISTRAR GRUPO</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                    <!-- NO GROUP BUTTON -->
+                <div class="modal fade" id="no-group">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Acción no permitida</h4>
+                                <button type="button" class="close" data-dismiss="modal">×</button>
+                            </div>
+
+                            <div class="modal-body">
+                                <h5>Esta tarea se ha de hacer de forma individual</h5>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Aceptar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DELETE BUTTON -->
+                <div class="modal fade" id="delete">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Eliminar Tarea</h5>
+                                <button type="button" class="close" data-dismiss="modal">×</button>
+                            </div>
+
+                            <div class="modal-body">
+                                ¿Eliminar la tarea actual? Se requiere contraseña:
+                                <div class="icon inside mt-4">
+                                    <i class="fa fa-lock" style="font-size:14px"></i>
+                                    <input type="password" class="form-control pt-2 pl-5" placeholder="********" />
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Eliminar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                        <!-- UPDATE BUTTON -->
+                <div class="modal fade" id="modify">
+                    <div class="modal-dialog modal-md">
+                        <div class="modal-content">
+                            <div class="modal-header text-center">
+                                <h5 class="text-center">Modificar los detalles de esta tarea</h5>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group mx-4">
+                                    <strong class="mr-3 mb-5">Rellena los campos que deseas modificar</strong>                            
+                                    <div class="input-group mb-3 mt-4">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="input-data">Nombre</span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="input-group mb-3 mt-4">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="input-data">Tipo</span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="input-group mb-3 mt-4">
+                                        <div class="input-group-prepend">
+                                          <span class="input-group-text" id="input-data">Curso</span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="input-group mb-3 mt-4">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="input-data">Disponibilidad</span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="input-group mb-3 mt-4">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="input-data">Fecha de entrega</span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="input-group mb-3 mt-4">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="input-data">Tipo de entrega</span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="input-group mb-3 mt-4">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="input-data">Calificación</span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                    <hr>
+                                    <h6>Se necesitan permisos de administrador para modificar los datos</h6>                                   
+                                </div>
+                                <div class="modal-footer">
+                                    <div class="icon inside">
+                                        <i class="fa fa-lock" style="font-size:14px"></i>
+                                        <input type="password" class="form-control pt-2 pl-5" placeholder="********" />
+                                    </div>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">MODIFICAR</button> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
                 <footer>
                     <div id="AboutUs" class="row">
-                        <div class="col-4 col-md-6 d-flex">
-                            <p class="pr-2">© 2019</p>
-                            <a href="">Creative Tim</a> &
-                            <a href="">Updivision</a>
+                        <div  class="col-4 col-md-6 d-flex">
+                            <p class="pr-2"> © 2019</p>
+                            <a href="">Creative Tim</a> & <a href="">Updivision</a>
                         </div>
                         <div class="col-8 col-md-6">
-                            <a class="text-dark mr-3 mr-md-5" href=""> Creative Tim</a>
+                            <a  class="text-dark mr-3 mr-md-5" href=""> Creative Tim</a>
                             <a class="text-dark mr-3 mr-md-5" href=""> Updivision</a>
-                            <a class="text-dark mr-3 mr-md-5" href="">
-                  Acerca de Nosotros</a
-                >
-                <a class="text-dark mr-3 mr-md-5" href=""> Blog</a>
+                            <a class="text-dark mr-3 mr-md-5" href=""> Acerca de Nosotros</a>
+                            <a class="text-dark mr-3 mr-md-5" href=""> Blog</a>
                             <a class="text-dark" href=""> Licencia MIT </a>
                         </div>
                     </div>
@@ -198,6 +564,8 @@
             </div>
         </div>
 
+    
+  
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -205,5 +573,4 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </div>
 </body>
-
 </html>

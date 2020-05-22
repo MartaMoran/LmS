@@ -25,7 +25,7 @@
                 <div class="col-3">
                     <img src="img/logo-argon.png" alt="" />
                 </div>
-                <div class="col-7 d-none d-sm-block d-md-inline-block text-right">
+                <div class="col-7 d-none d-lg-block d-lg-inline-block text-right">
                     <a href="">
                         <i class="fa fa-globe text-white" style="font-size: 20px;">
                 Panel de Control</i
@@ -54,7 +54,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
       <!-- WELCOME MESSAGE -->
       <div class="row justify-content-center">
         <div class="col-lg-6 col-md-8" class="text-center">
@@ -141,10 +141,8 @@
       <div class="row justify-content-center mt-3 mb-5">
         <div class="col-sm-12 col-md-6">
           <div class="row d-flex justify-content-between">
-            <div class="col-5">
-              <a href="" class="text-white">
-                <b> ¿Olvidaste tu contraseña? </b></a
-              >
+            <div class="col-6">
+              <button type="button" class="btn btn-link text-white" data-toggle="modal" data-target="#password"> <b> ¿Olvidaste la contraseña? </b></button> 
             </div>
             <div class="col-5 text-right">
               <a href="register.html" class="text-white">
@@ -153,6 +151,28 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="modal fade" id="password">
+      <div class="modal-dialog modal-md">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title">Restablecer contraseña</h4>
+                  <button type="button" class="close" data-dismiss="modal">X</button>
+              </div>
+
+              <div class="modal-body">
+                  <h6>Introduce la dirección de correo electrónico que usaste para registrarte. Te enviaremos un correo electrónico con tu nombre de usuario y un enlace para restablecer tu contraseña.</h6>
+
+                  <div class="form-group text-center mt-4">
+                    <input type="email" class="form-control" id="email-w" placeholder="tucorreo@ejemplo.com" name="email">
+                  </div>
+              </div>
+
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Enviar</button>
+              </div>
+          </div>
       </div>
     </div>
 
@@ -176,5 +196,10 @@
         </div>
       </div>
     </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
