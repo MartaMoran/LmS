@@ -1,104 +1,114 @@
 .logoFirefox {
-    width: 130px;
-    ´ height: 40px;
+  width: 130px;
+  height: 40px;
 }
 
 .nav-link {
-    font-size: 17px;
-    font-weight: bold;
-    margin-left: 70px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 70px;
 }
 
 .h3Header {
-    margin-top: 25px;
-    font-size: 50px;
-    line-height: 1.1;
-    font-family: Inter, X-LocaleSpecific, sans-serif;
-    font-weight: 700;
+  margin-top: 25px;
+  font-size: 50px;
+  line-height: 1.1;
+  font-family: Inter, X-LocaleSpecific, sans-serif;
+  font-weight: 700;
 }
 
 .pHeader {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 25px;
-    line-height: 1.1;
-    font-family: Inter, X-LocaleSpecific, sans-serif;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 25px;
+  line-height: 1.1;
+  font-family: Inter, X-LocaleSpecific, sans-serif;
 }
 
 #buttonAccess {
-    background-color: #FF5255;
-    color: white;
-    width: 135px;
-    height: 35px;
-    font-size: 15px;
-    border-radius: 4px;
+  background-color: #ff5255;
+  color: white;
+  width: 135px;
+  height: 35px;
+  font-size: 15px;
+  border-radius: 4px;
 }
 
-.bi{
-    margin-right: 7px;
-    margin-bottom: 4px;
+.bi {
+  margin-right: 7px;
+  margin-bottom: 4px;
 }
 
-.bloqueBusqueda{
-    display: flex;
+.bloqueBusqueda {
+  display: flex;
   justify-content: center;
 }
 
-#boxSearch{
-    margin-right: 125px;
-    
+#boxSearch {
+  margin-right: 125px;
 }
 
-#buttonSearch{
-    padding-left: 55px;
-   
+#buttonSearch {
+  padding-left: 55px;
 }
 
-#headerH1{
-    background-image: url("https://images5.alphacoders.com/883/883579.png");
-    height: 100px;
-    color:white;
-    display: flex;
-    align-items: center;
+#headerH1 {
+  background-image: url("https://images5.alphacoders.com/883/883579.png");
+  height: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
 }
 
-#aPopulars{
-    padding-bottom: 50px;
+#aPopulars {
+  padding-bottom: 50px;
 }
 
-#imagesBlocks{
-    height: auto;
-    width: auto;
+#imagesBlocks {
+  height: auto;
+  width: auto;
 }
 
-#buttonPopular{
-    height: 50px;
-    width: 200px;
+#buttonPopular {
+  height: 50px;
+  width: 200px;
 }
 
-.pCursosDown{
-    font-size: 12px;
-
+.pCursosDown {
+  font-size: 12px;
 }
 
-#imgCursosDown{
-    margin-top: 8px;
-    height: 130px;
+#imgCursosDown {
+  margin-top: 8px;
+  height: 130px;
+  width: 280px;
 }
 
-.pvpStrike{
-    font-size: 12px;
+.pvpStrike {
+  font-size: 12px;
 }
 
-#buttonBuy{
-    height: 60px;
-    width: 60px;
-   
-}#columnPVP{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-   
-    
-    
+#buttonBuy {
+  height: 60px;
+  width: 60px;
+}
+#columnPVP {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#linksFooter {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+  padding-top: 20px;
+}
+
+.logosFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
 }
