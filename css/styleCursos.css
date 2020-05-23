@@ -81,7 +81,7 @@
 #imgCursosDown {
   margin-top: 8px;
   height: 130px;
-  width: 280px;
+  width: 320px;
 }
 
 .pvpStrike {
@@ -99,16 +99,36 @@
 }
 
 #linksFooter {
-  font-size: 12px;
+  font-size: 14px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 5px;
   padding-top: 20px;
 }
 
 .logosFooter {
   display: flex;
   justify-content: space-between;
+  margin-top: 25px;
+}
+
+#blockLastFooterLeft {
+  margin-left: 35px;
   margin-top: 15px;
+  margin-bottom: 25px;
+  display: flex;
+  font-size: 13px;
+}
+
+#blockLastFooterRight {
+  margin-left: 35px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  display: flex;
+  font-size: 13px;
+  justify-content: flex-end;
+}
+
+#textFooterCurses {
+  font-size: 15px;
 }
