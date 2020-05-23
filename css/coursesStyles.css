@@ -103,8 +103,18 @@ div .dataReviews {
   }
 }
 @media (min-width: 1450px) {
+<<<<<<< HEAD
   #dashboardBg {
     background-image: url(../img/dashboard4xl.svg);
     background-size: cover;
   }
 }
+=======
+    #dashboardBg {
+        background-image: url(../img/dashboard5xl.png);
+        background-size: 50%;
+        background-repeat: repeat-x;    
+        background-color:#eeeef4;
+    }
+}
+>>>>>>> 53cfc2bc7730cddc49fabd7e2515a236d81ecf8d
