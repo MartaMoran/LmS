@@ -1,0 +1,21 @@
+*{
+    font-size: 12px;
+    font-family: "fontawesome";
+}
+
+#search  {
+    background-color: #f2f3f5;
+    color:#ec5252;
+    padding:10px;
+    
+  }
+  #search input{
+      border:none;
+      background-color: #f2f3f5;
+  }
+  .register {
+    background-color: #ec5252;
+    color:#ffff;
+    font-weight: bold;
+  }
+ 
