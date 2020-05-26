@@ -1,6 +1,7 @@
 *{
-    font-size: 12px;
-    font-family: "fontawesome";
+    font-size: 16px;
+    font-family: 'fontawesome','Open Sans', sans-serif;
+    line-height: 1.43;
 }
 
 #search  {
@@ -18,4 +19,86 @@
     color:#ffff;
     font-weight: bold;
   }
+  .course{
+    background-color: #29303b;
+    padding:50px;
+    color:#ffff;
+
+  }
+  
+  .courseIn{
+    padding-top: 100px;
+  }
  
+ .courseIn .bestSeller {
+   background-color:#f4c150;
+   color:#29303b;
+   padding:2px;
+ }
+ .description{
+   border: solid #dedfe0 1px;
+   width: 800px;
+   background-color: #f9f9f9;
+   margin: 30px;
+   margin-left:30px;
+   padding-top:10px;
+   
+ }
+ .accordion {
+   border-bottom:solid #ffff 5px;
+   width: 800px;
+   margin-left:45px;
+ }
+  
+ .viewMore [class*="btn"] {
+   border: solid #dedfe0 1px;
+   margin-left: 30px;
+   padding:15px;
+   width: 800px;
+   background-color: #e8e9eb;
+ }
+
+ .shoppingCart {
+  padding: 5px;
+  margin-top: -360px;
+}
+#shopCart {
+  background-color: #ec5252;
+  color: #ffff;
+}
+
+
+#linksFooter {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.logosFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+#blockLastFooterLeft {
+  margin-left: 35px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  display: flex;
+  font-size: 13px;
+}
+
+#blockLastFooterRight {
+  margin-left: 35px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  display: flex;
+  font-size: 13px;
+  justify-content: flex-end;
+}
+
+#textFooterCurses {
+  font-size: 15px;
+}
