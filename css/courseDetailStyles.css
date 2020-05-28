@@ -4,20 +4,31 @@
     line-height: 1.43;
 }
 
+.logo {
+  font-family: "Chango", cursive;
+  font-size: 20px;
+  color: rgb(107, 66, 204);
+}
+
 #search  {
     background-color: #f2f3f5;
     color:#ec5252;
-    padding:10px;
+    padding:15px;
     
   }
   #search input{
       border:none;
       background-color: #f2f3f5;
+      width: 450px;
   }
   .register {
     background-color: #ec5252;
     color:#ffff;
     font-weight: bold;
+
+  }
+  .navigation {
+    background-color: #e9ecef;
   }
   .course{
     background-color: #29303b;
@@ -57,6 +68,8 @@
    width: 800px;
    background-color: #e8e9eb;
  }
+ 
+
 
  .shoppingCart {
   padding: 5px;
@@ -65,8 +78,11 @@
 #shopCart {
   background-color: #ec5252;
   color: #ffff;
+  width: 430px;
 }
-
+#shopCart2 {
+  width: 430px;
+}
 
 #linksFooter {
   font-size: 14px;
