@@ -67,3 +67,20 @@
 #button-add{
     width: 150px;
 }
+
+#blockLastFooterLeft {
+    margin-left: 35px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    font-size: 13px;
+  }
+
+  #blockLastFooterRight {
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    display: flex;
+    font-size: 13px;
+    justify-content: flex-end;
+  }
