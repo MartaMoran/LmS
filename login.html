@@ -5,11 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-
     <!-- Bootstrap: -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+     <!-- CSS -->
+     <link rel="stylesheet" href="css/style.css" />
 
     <!-- Icons: -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -20,39 +20,61 @@
 <body>
     <!-- HEADER -->
     <div class="container-fluid mb-5">
-        <div class="container">
-            <div class="row d-flex justify-content-between py-4">
-                <div class="col-3">
-                    <img src="img/logo-argon.png" alt="" />
-                </div>
-                <div class="col-7 d-none d-lg-block d-lg-inline-block text-right">
-                    <a href="">
-                        <i class="fa fa-globe text-white" style="font-size: 20px;">
-                Panel de Control</i
-              ></a
-            >
-            <a href="">
-              <i
-                class="fa fa-user-circle text-white mx-4"
-                style="font-size: 20px;"
+      <div class="container">
+        <div class="row d-flex justify-content-between py-4">
+          <div class="col">
+            <nav class="navbar navbar-expand-md navbar-light">
+              <!-- <div class="col-sm-6 col-md-3"> -->
+                <img
+                  src="img/logo-argon.png"
+                  alt="Logo Argon"
+                />
+              <!-- </div> -->
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
               >
-                Registrarse</i
-              ></a
-            >
-            <a href="">
-              <i class="fa fa-key text-white" style="font-size: 20px;">
-                Iniciar Sesión</i
-              ></a
-            >
-            <a href="">
-              <i class="fa fa-user text-white ml-4" style="font-size: 20px;">
-                Perfil</i
-              ></a
-            >
-          </div>
-        </div>
+                <span class="navbar-toggler-icon"></span>
+              </button>
+               
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item ml-auto">
+                        <a class="nav-link d-flex text-align-right" href="dashboard.html"><i class="fa fa-globe text-white" style="font-size: 20px;">
+                        Panel de Inicio</i
+                        ></a>
+                      </li>
+                      <li class="nav-item ml-auto">
+                        <a class="nav-link  d-flex text-align-right" href="register.html"><i
+                          class="fa fa-user-circle text-white ml-4"
+                          style="font-size: 20px;"
+                        >
+                        Registrarse</i
+                        ></a>
+                      </li>
+                      <li class="nav-item ml-auto">
+                        <a class="nav-link  d-flex text-align-right" href="#"><i class="fa fa-key text-white ml-4" style="font-size: 20px;">
+                        Iniciar Sesión</i
+                        ></a>
+                      </li>
+                      <li class="nav-item ml-auto">
+                        <a class="nav-link  d-flex text-align-right" href="profile.html"><i class="fa fa-user text-white ml-4" style="font-size: 20px;">
+                        Perfil</i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
       </div>
-    </div>
+  </div>
 
     <div class="container-fluid">
       <!-- WELCOME MESSAGE -->
@@ -71,20 +93,20 @@
       <div class="row justify-content-center mt-5">
         <div class="col-sm-12 col-md-6 bg-light text-center">
           <div class="text-muted py-4"><b> Inicia sesión con </b></div>
-          <button type="button" class="buttons mr-2">
+          <button type="button" class="buttons mx-4">
             <i class="fa fa-github mr-2" style="font-size: 25px;"></i>
                         <a href="" class="brand-to-sign"> <b class="ml-2"> Github </b></a>
                         </button>
-                        <button type="button" class="buttons ml-2 mb-3">
+                        <button type="button" class="buttons mb-3">
             <img src="img/google.jpg" /><a href="" class="brand-to-sign">
               <b class="ml-2">Google</b>
             </a>
           </button>
 
-                        <hr class="my-5" />
+          <hr class="my-5" />
 
-                        <a href="register.html"> <b> Crea una nueva cuenta </b></a>
-                        <span class="text-muted mb-5">
+          <a href="register.html"> <b> Crea una nueva cuenta </b></a>
+          <span class="text-muted mb-5">
             O inicia sesión con tu nombre de usuario
             <strong> admin@argon.com </strong> y contraseña
             <strong>secreta</strong></span
