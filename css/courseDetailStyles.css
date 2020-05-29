@@ -1,5 +1,5 @@
-*{
-    font-size: 16px;
+body{
+    font-size: 14px;
     font-family: 'fontawesome','Open Sans', sans-serif;
     line-height: 1.43;
 }
@@ -10,22 +10,23 @@
   color: rgb(107, 66, 204);
 }
 
-#search  {
-    background-color: #f2f3f5;
-    color:#ec5252;
-    padding:15px;
-    
-  }
   #search input{
-      border:none;
+      border-radius:30px;
+      border-style: none;
+      padding:10px;
+     
       background-color: #f2f3f5;
-      width: 450px;
+      
   }
   .register {
     background-color: #ec5252;
-    color:#ffff;
-    font-weight: bold;
+    font-size: 10px;
+    padding:7px;
 
+  }
+  .login{
+    font-size: 10px;
+    padding:7px;
   }
   .navigation {
     background-color: #e9ecef;
@@ -61,11 +62,9 @@
    margin-left:45px;
  }
   
- .viewMore [class*="btn"] {
+ .viewMore  {
    border: solid #dedfe0 1px;
-   margin-left: 30px;
-   padding:15px;
-   width: 800px;
+   padding:15px; 
    background-color: #e8e9eb;
  }
  
@@ -78,11 +77,9 @@
 #shopCart {
   background-color: #ec5252;
   color: #ffff;
-  width: 430px;
+  
 }
-#shopCart2 {
-  width: 430px;
-}
+
 
 #linksFooter {
   font-size: 14px;
@@ -117,4 +114,22 @@
 
 #textFooterCurses {
   font-size: 15px;
+}
+
+@media (max-width:700px) {
+  .shoppingCart {
+    margin-top: 20px;
+    width:350px;
+  }
+}
+
+@media (min-width: 701px) and (max-width:1200px) {
+  .shoppingCart {
+    width: 300px;
+    margin-top: -650px;
+    margin-left:-100px;
+  }
+  .description {
+    margin-top: 100px;
+  }
 }
