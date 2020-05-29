@@ -31,6 +31,7 @@ footer {
 #dashboardBg {
     background-image: url("../img/dashboard4.png");
     background-repeat: no-repeat;
+    background-color: #eeeef4;
 }
 
 #search {
@@ -65,32 +66,7 @@ footer {
     width: 45px;
 }
 
-@media (max-width: 700px) {
-    .logo {
-        font-size: 40px;
-    }
-    .menu {
-        font-size: 25px;
-    }
-    div [class*="text-dark"] {
-        font-size: 15px;
-    }
-    #aboutUs p {
-        font-size: 10px;
-    }
-    #aboutUs a {
-        font-size: 10px;
-    }
-    footer {
-        margin-top: 20px;
-    }
-    #search {
-        margin-left: 10px;
-    }
-    #upgrade {
-        margin-top: 30px;
-    }
-}
+
 
 #container {
     height: 420px;
@@ -160,4 +136,38 @@ footer {
 
 .highcharts-data-table tr:hover {
     background: #f1f7ff;
+}
+@media (max-width: 700px) {
+    .logo {
+        font-size: 40px;
+    }
+    .menu {
+        font-size: 25px;
+    }
+    div [class*="text-dark"] {
+        font-size: 15px;
+    }
+    #aboutUs p {
+        font-size: 10px;
+    }
+    #aboutUs a {
+        font-size: 10px;
+    }
+    footer {
+        margin-top: 20px;
+    }
+    #search {
+        margin-left: 10px;
+    }
+    #upgrade {
+        margin-top: 30px;
+    }
+}
+@media (min-width: 1450px) {
+    #dashboardBg {
+        background-image: url(../img/dashboard5xl.png);
+        background-size: 50%;
+        background-repeat: repeat-x;    
+        background-color:#eeeef4;
+    }
 }

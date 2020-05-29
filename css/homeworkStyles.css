@@ -78,32 +78,7 @@ div .dataReviews {
     padding: 10px;
 }
 
-@media (max-width: 700px) {
-    .logo {
-        font-size: 40px;
-    }
-    .menu {
-        font-size: 25px;
-    }
-    div [class*="text-dark"] {
-        font-size: 15px;
-    }
-    #aboutUs p {
-        font-size: 10px;
-    }
-    #aboutUs a {
-        font-size: 10px;
-    }
-    footer {
-        margin-top: 50px;
-    }
-    #search {
-        margin-left: 10px;
-    }
-    #upgrade {
-        margin-top: 30px;
-    }
-}
+
 
 /* update button */
 #input-data{
@@ -117,3 +92,38 @@ div .dataReviews {
 .create{
     width: 85px;
 }
+
+@media (max-width: 700px) {
+    .logo {
+      font-size: 40px;
+    }
+    .menu {
+      font-size: 25px;
+    }
+    div [class*="text-dark"] {
+      font-size: 15px;
+    }
+    #aboutUs p {
+      font-size: 10px;
+    }
+    #aboutUs a {
+      font-size: 10px;
+    }
+    footer {
+      margin-top: 50px;
+    }
+    #search {
+      margin-left: 10px;
+    }
+    #upgrade {
+      margin-top: 30px;
+    }
+  }
+  @media (min-width: 1450px) {
+      #dashboardBg {
+          background-image: url(../img/dashboard5xl.png);
+          background-size: 50%;
+          background-repeat: repeat-x;    
+          background-color:#eeeef4;
+      }
+  }

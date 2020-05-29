@@ -31,6 +31,7 @@ footer {
 #dashboardBg {
     background-image: url("../img/dashboard4.png");
     background-repeat: no-repeat;
+    background-color: #eeeef4;
 }
 
 #search {
